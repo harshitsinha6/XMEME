@@ -1,0 +1,49 @@
+
+<html>
+    <head>
+    <title>XMEME</title>
+        <script src="on-from-submit.js"></script>
+        <link rel="stylesheet" href="design.css">
+    </head>
+    <body>
+        <h1>XMeme</h1>
+        <form action = 'addValues' method="POST" id = "myForm" >
+
+            <h2>XMeme Stream</h2>
+            <div id="div_username">
+                <label class="labelinsideform">UserName: </label>
+                <input type="text" id="username" value="" name="username">
+            </div>
+
+            <div id="div_caption">
+                <label class="labelinsideform">Caption: </label>
+                <input type="text" id="caption" value="" name = "caption">
+            </div>
+
+            <div id="div_meme_url">
+                <label class="labelinsideform">Give meme url: </label>
+                <input type="url" id="meme_url" value="" name = "url">
+            </div>
+
+            <br>
+            <input type="button" id="submit" name="Submit" value="POST" onclick="getInput()">  
+            <br><br><br>
+            <div class="div_image" id="divimage">
+                <label id="show_username" class = "memelabel"></label>
+                <div id = br1><br></div>
+                <br id="br">
+                <label id="show_caption" class = "memelabelcaption"></label>
+                <div id = br2><br></div>
+                <br>
+                <div src = "" id="show_image"></div>
+                <div id = br3></div>
+                <br>
+            </div>
+            <br>
+
+        </form>
+
+        
+        
+    </body>
+</html>

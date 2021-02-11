@@ -1,0 +1,127 @@
+
+form {
+
+    align-self: center;
+    max-width: 800px;
+    max-height: 700px;
+    height: auto;
+    margin: auto;
+    margin-top: 100px;
+    background-color: rgba(248, 190, 148, 0.699);
+    box-sizing: border-box;
+    border: 15px solid rgba(199, 245, 194, 0.829);
+    border-radius: 4px;
+    
+}
+
+body {
+    background-image: url("backgroundimage.jpg");
+    padding: 0%;
+}
+
+label.labelinsideform {
+    
+    background-origin: padding-box;
+    border: 5px rgb(63, 2, 124);
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color:rgba(8, 245, 253, 0.884);
+    margin-right: 10px;
+    margin-left: 10px;
+    font-size: 25px;
+    font-weight: bold;
+    font-stretch: extra-expanded;
+    font-style: italic;
+}
+
+h1{
+    align-self: center;
+    margin-left: 45%;
+    font-style: inherit;
+    font-size: 50px;
+    color: wheat;
+}
+
+h2{
+    align-self: center;
+    margin-left: 35%;
+    font-style: italic;
+    font-size: 30px;
+}
+
+
+#div_username {
+    margin-top: auto;
+    margin-bottom: 10px;
+    padding-right: 10px;
+}
+
+#username {
+    margin-left: 360px;
+}
+
+#caption {
+    margin-left: 388px;
+}
+
+#meme_url {
+    margin-left: 318px;
+}
+
+#div_caption {
+    margin-top: auto;
+    margin-bottom: 10px;
+}
+
+#div_meme_url {
+    margin-top: auto;
+    margin-bottom: 10px;
+}
+
+#submit {
+    width: 100%;
+    color: rgb(244, 239, 250);
+    background-color: rgba(141, 192, 107, 0.568);
+    font-size: 14px;
+    font-weight: bolder;
+}
+
+#image{
+    align-items: center;
+    max-width: 90%;
+    max-height: 300px;
+    min-width: 60%;
+    min-height: 300px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+div.div_image{
+    overflow: scroll;
+    max-height: 400px;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 20px;
+}
+
+label.memelabel{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    color:rgb(4, 1, 15);
+    margin-right: 20px;
+    margin-left: 20px;
+    font-size: 15px;
+    font-weight: bold;
+    font-style: normal;
+}
+
+label.memelabelcaption{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    color:rgb(4, 1, 15);
+    margin-right: 20px;
+    margin-left: 40px;
+    font-size: 15px;
+    font-weight: bold;
+    font-style: normal;
+}
